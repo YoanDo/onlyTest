@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+// eslint-disable-next-line import/no-unresolved
 import theme from '@/assets/theme';
 import SearchIcon from '../Icons/SearchIcon';
 import CheckIcon from '../Icons/CheckIcon';

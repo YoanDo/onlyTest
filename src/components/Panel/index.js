@@ -11,6 +11,7 @@ import {
 } from './styles';
 import FirstPane from './components/FirstPane';
 import Carousel from '../UI/Carousel';
+// eslint-disable-next-line import/no-unresolved
 import ExitButton from '@/components/UI/Buttons/Exit';
 
 const Panel = () => {
