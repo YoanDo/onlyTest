@@ -1,18 +1,29 @@
 const theme = {
-  color: {
+  colors: {
     background: '#181818',
+    black: '#0E0D2E',
     error: '#FF9000',
     grey: '#7A7877',
     highlight: '#AE00FF',
     main: '#F3F0EE',
+    spaceBlue: '#8E93AC',
     success: '#00FFE4',
+    white: '#FFFFFF',
   },
-  fontSize: {
+  fontSizes: {
     title: '24px',
     default: '16px',
+    small: '14px',
   },
-  transition: {
+  transitions: {
+    quick: '0.1s ease',
     default: '0.3s ease-in-out',
+    elastic: 'transform 0.2s cubic-bezier(0.2, 0.7, 0.4, 1.2)',
+  },
+  borderRadius: {
+    input: '16px',
+    button: '12px',
+    small: '10px',
   },
   spacing: (x) => `calc(${x}*16px)`,
   colorWithOpacity: (hex, opacity) => {
