@@ -2,5 +2,6 @@
   "extends": [
     "wesbos",
     "next/core-web-vitals"
-  ]
+  ],
+  "rules": {}
 }
